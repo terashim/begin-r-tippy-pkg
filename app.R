@@ -20,12 +20,12 @@ ui <- fluidPage(
         sliderInput("bins", "ビンの数:", min = 1, max = 50, value = 30)
       ),
       # スライダー入力ウィジェットにツールチップを付ける
-      tippy_this("bins-wrapper", tooltip = "スライダー！!"),
+      tippy_this(elementId = "bins-wrapper", tooltip = "スライダー！!"),
       
       # テキスト入力
       textInput("text", "テキストを入力"),
       # テキスト入力ウィジェットにツールチップを付ける
-      tippy_this("text", tooltip = "テキスト！！"),
+      tippy_this(elementId = "text", tooltip = "テキスト！！"),
       
       
       p(
@@ -48,7 +48,7 @@ ui <- fluidPage(
         plotOutput("distPlot")
       ),
       # ツールチップを付ける
-      tippy_this("plot", "プロットです！！！")
+      tippy_this(elementId = "plot", tooltip = "プロットです！！！")
     )
   )
 )
