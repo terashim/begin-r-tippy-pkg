@@ -1,0 +1,12 @@
+name: begin-r-tippy-pkg
+title: begin-r-tippy-pkg
+username:
+account: terashim
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 610129
+bundleId: 1750394
+url: https://terashim.shinyapps.io/begin-r-tippy-pkg/
+when: 1544333475.79384
+asMultiple: FALSE
+asStatic: FALSE
